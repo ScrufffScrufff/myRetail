@@ -14,6 +14,7 @@ To run locally (Windows):
     3. Find and run Mongo.
     3. Download and install Postman from https://www.getpostman.com/
     4. Find and run Postman.
+    5. For testing purposes download and install NOSQLBooset for MongoDB and connect to localhost 27017
     Note: Follow mongo instructions for alternate OS installation.
 
 Sample Get:
