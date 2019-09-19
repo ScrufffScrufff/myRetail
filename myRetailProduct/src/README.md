@@ -6,16 +6,19 @@ Technology used:
  * MongoDB
  * JUNIT
  * Mockito
+ * Test me
 
 To run locally (Windows):
     
     1. Download mongodb from https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
     2. Follow the install instructions, keeping everything default.
     3. Find and run Mongo.
-    3. Download and install Postman from https://www.getpostman.com/
-    4. Find and run Postman.
-    5. For testing purposes download and install NOSQLBooset for MongoDB and connect to localhost 27017
-    Note: Follow mongo instructions for alternate OS installation.
+        Note: Follow mongo instructions for alternate OS installation.
+    4. Clone this git repo, open in IDE of choice, ex. Intellij.
+    5. build and run MyRetailProductApplication
+    6. Download and install Postman from https://www.getpostman.com/
+    7. Find and run Postman (http://localhost:8088/products/{$id}).
+    8. For testing purposes download and install NOSQLBooset for MongoDB and connect to localhost 27017
 
 Sample Get:
         http://localhost:8088/products/13860428  
